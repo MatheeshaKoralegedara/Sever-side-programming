@@ -1,0 +1,42 @@
+What is JSON 
+ 
+    * JSON stands for JavaScript Object Notation
+    * JSON is used to transport data between applications
+    * There are other methods such as,
+         + XML
+         + Plain Text
+-------------------------------------------------------------
+
+JSON Data Structure
+
+    * Each element is enclosed in a curly bracket
+        + {JSON data goes inside this }
+    * Differnet keys are seperated bycommas
+        + {"OneKey":"Value of oneKey","secondKey":"Value of secondKey"}
+    * Eah data is inkeyvalue pairs
+        + {"This is the key": "This is the value of that key"}
+    * Value can be String,Array,Object,Number or Boolean.
+        + {"keyString":"I am string","keyNumber":119,"keyBoolean":true,"keyArray":[100,20,30,40],""keyObject":{"some other key":"hello"}}          
+
+------------------------------------------------------------------------------------------       EXAMPLE
+
+ We are sending information about a user in JSON format.
+    + Name- String
+    + Age- Number
+    + Telephone number- Array
+    + isMaried- Boolean
+    + Address- Oject
+       +Street name- String
+       +City- String
+       +Postal code- Number 
+
+====================================================================
+
+{
+    "name" : "User",
+    "age" : 25,
+    "telNumbers" : ["+9477363526","+9477252435"],
+    "isMarried" : false,
+    "address" : {"streetName":"50","city": "colombo", "postalCode" : 10433}
+
+}    

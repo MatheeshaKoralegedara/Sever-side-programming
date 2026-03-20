@@ -1,0 +1,33 @@
+Asynchronous vs Synchronous
+
+* Synchronous means to be in a sequence
+* In Asynchronous,yo cam move to next task while current one is still running
+
+-------------------------------------------------------------------------------
+
+Why Asynchronous?
+
+ * Must have for comple applications
+ * Complex ?
+       + Have many components
+       + Lrge number of API calls
+       + Large calculation tsks which tqkes a long time
+ 
+ * Are e making complex applications here? NO
+ * Then why we need this ?
+ * Even in simple applications 
+       + We have API calls
+       + We might load two components at the same time
+       + We may have long lists with multiple pages     
+
+----------------------------------------------------------
+
+Promises
+ 
+ * A code can give a PROMISE?
+ * It can promise a result
+      + Resolve: Output value of the code
+      + Reject: If any error occured
+ * There are two other keywords you should know for knowledge
+      + Producing code: The code which we want to run (Boiling the water)
+      + Consuming code: The code which is waiting for the result(We wait for water to boil before pouring it to cup)     
